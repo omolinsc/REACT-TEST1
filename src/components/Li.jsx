@@ -29,9 +29,10 @@ export default Li
 //   }
 
 //? Según el name que le pasemos a Li  =>  <Li name="Home" />
-// const Li = (prop) => {
+// const Li = (props) => {
+// const {name} = props
 //   return (
-//     <li>{prop.name}</li>
+//     <li>{name}</li>
 //   )
 // }
 
